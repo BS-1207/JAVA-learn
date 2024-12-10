@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = 192.168.0.41:/my-git-server/
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "github"]
+	url = https://github.com/BS-1207/JAVA-learn.git
+	fetch = +refs/heads/*:refs/remotes/github/*
